@@ -1,0 +1,28 @@
+2024-06-20 11:46:18.656 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-20 11:46:18.686 | INF | ==================================================================================
+ 2024-06-20 11:46:18.691 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-20 11:46:18.727 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-20 11:46:30.631 | INF | "the user Login with credentials Sunquest and ice4dmin"
+ 2024-06-20 11:46:32.701 | INF | "Select location"
+ 2024-06-20 11:46:32.913 | INF | "Navigate to patients"
+ 2024-06-20 11:46:32.975 | INF | "Click My Option"
+ 2024-06-20 11:47:03.018 | ERR | Test step failed | no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fa fa-fw fa-user-plus icon']"}
+  (Session info: MicrosoftEdge=126.0.2592.61); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.CreatePatient.addicon() in D:\ICE\ICE 24.2\Pages\CreatePatient.cs:line 53
+   at BDD_AutomationTests.Steps.CreatenewpatientStepDefinitions.WhenClickAddNewPatientIcon() in D:\ICE\ICE 24.2\Steps\CreatenewpatientStepDefinitions.cs:line 58
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-20 11:47:03.210 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-20 11:47:03.211 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-20 11:47:14.340 | INF | "Login with credentials Ram and Ice4dmin"
+ 2024-06-20 11:47:14.373 | INF | "Verify invalid credential message is displaying"
+ 2024-06-20 11:47:14.374 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-20 11:47:26.418 | INF | "Login with credentials Edward and ice4dmin"
+ 2024-06-20 11:47:28.372 | INF | "Verify home page is dispalyed"
+ 
