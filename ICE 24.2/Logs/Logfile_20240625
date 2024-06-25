@@ -1,0 +1,52 @@
+2024-06-25 09:09:29.682 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-25 09:09:29.721 | INF | ==================================================================================
+ 2024-06-25 09:09:29.730 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-25 09:09:29.806 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-25 09:09:49.086 | INF | "user Login with ICE application"
+ 2024-06-25 09:09:56.724 | INF | "Select location"
+ 2024-06-25 09:09:59.296 | INF | "Navigate to patients"
+ 2024-06-25 09:09:59.449 | INF | "Click My Option"
+ 2024-06-25 09:10:22.462 | INF | "Click Add New Patient icon"
+ 2024-06-25 09:10:24.390 | INF | "Enter Forename"
+ 2024-06-25 09:10:24.602 | INF | "Enter Surname"
+ 2024-06-25 09:10:24.754 | INF | "Enter DOB"
+ 2024-06-25 09:10:25.000 | INF | "Select Gender"
+ 2024-06-25 09:10:25.296 | INF | "Enter Address line"
+ 2024-06-25 09:10:25.496 | INF | "Enter Postcode"
+ 2024-06-25 09:10:25.608 | INF | "Click Save icon"
+ 2024-06-25 09:10:26.850 | ERR | Test step failed | element click intercepted: Element <i class="fa fa-fw fa-plus-square-o icon"></i> is not clickable at point (1230, 90). Other element would receive the click: <div class="loading-panel loading" data-ng-class="base.isLoading ? 'loading' : ''">...</div>
+  (Session info: MicrosoftEdge=126.0.2592.68)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at BDD_AutomationTests.Pages.CreatePatient.New() in D:\aa\ICE 24.2\Pages\CreatePatient.cs:line 86
+   at BDD_AutomationTests.Steps.CreatenewpatientStepDefinitions.ThenNewPatientDemographyIsCreated() in D:\aa\ICE 24.2\Steps\CreatenewpatientStepDefinitions.cs:line 100
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-25 09:10:27.202 | INF | Selecting feature file "Login with valid and invalid credentials" to run
+ 2024-06-25 09:10:27.205 | INF | Selecting scenario "Login with invalid credentials" to run
+ 2024-06-25 09:10:39.491 | INF | "Login with credentials Ram and Ice4dmin"
+ 2024-06-25 09:10:39.543 | INF | "Verify invalid credential message is displaying"
+ 2024-06-25 09:10:39.545 | INF | Selecting scenario "Login with valid credentials" to run
+ 2024-06-25 09:10:51.940 | INF | "Login with credentials Edward and ice4dmin"
+ 2024-06-25 09:10:54.280 | INF | "Verify home page is dispalyed"
+ 2024-06-25 09:11:20.585 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-25 09:11:20.616 | INF | ==================================================================================
+ 2024-06-25 09:11:20.623 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-25 09:11:20.658 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-25 09:11:33.296 | INF | "user Login with ICE application"
+ 2024-06-25 09:11:34.035 | INF | "Select location"
+ 2024-06-25 09:11:35.527 | INF | "Navigate to patients"
+ 2024-06-25 09:11:35.613 | INF | "Click My Option"
+ 2024-06-25 09:11:36.998 | INF | "Click Add New Patient icon"
+ 2024-06-25 09:11:38.650 | INF | "Enter Forename"
+ 2024-06-25 09:11:38.833 | INF | "Enter Surname"
+ 2024-06-25 09:11:38.997 | INF | "Enter DOB"
+ 2024-06-25 09:11:39.135 | INF | "Select Gender"
+ 2024-06-25 09:11:39.285 | INF | "Enter Address line"
+ 2024-06-25 09:11:39.489 | INF | "Enter Postcode"
+ 2024-06-25 09:11:39.591 | INF | "Click Save icon"
+ 2024-06-25 09:11:39.867 | INF | "New patient demography is Created"
+ 

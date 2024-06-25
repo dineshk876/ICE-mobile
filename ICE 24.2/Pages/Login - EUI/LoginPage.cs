@@ -36,5 +36,13 @@ namespace BDD_AutomationTests.Pages
             string _er = _invalidassert.Text;
             Assert.That(_er, Is.EqualTo(_er), "error");
         }
+
+        public void login()
+        {
+            driver.Url = BDD_AutomationTests.Hooks.Hooks.config.ApplicationURL;
+            driver.FindElement(usernameTextbox).SendKeys("sunquest");
+            driver.FindElement(passwordTextbox).SendKeys("ice4dmin");
+            driver.FindElement(passwordTextbox).SendKeys(Keys.Enter);
+        }
     }
 }

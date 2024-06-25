@@ -1,0 +1,95 @@
+2024-06-24 13:16:08.757 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 13:16:08.788 | INF | ==================================================================================
+ 2024-06-24 13:16:08.796 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 13:16:08.836 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 13:17:32.797 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 13:17:32.821 | INF | ==================================================================================
+ 2024-06-24 13:17:32.828 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 13:17:32.869 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 13:17:44.654 | INF | "user Login with ICE application"
+ 2024-06-24 13:17:47.453 | INF | "Select location"
+ 2024-06-24 13:17:47.598 | INF | "Navigate to patients"
+ 2024-06-24 13:17:47.693 | INF | "Click My Option"
+ 2024-06-24 13:18:17.836 | ERR | Test step failed | no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='fa fa-fw fa-user-plus icon']"}
+  (Session info: MicrosoftEdge=126.0.2592.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at BDD_AutomationTests.Pages.CreatePatient.addicon() in D:\aa\ICE 24.2\Pages\CreatePatient.cs:line 62
+   at BDD_AutomationTests.Steps.CreatenewpatientStepDefinitions.WhenClickAddNewPatientIcon() in D:\aa\ICE 24.2\Steps\CreatenewpatientStepDefinitions.cs:line 57
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-24 14:49:48.202 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 14:49:48.227 | INF | ==================================================================================
+ 2024-06-24 14:49:48.232 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 14:49:48.271 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 14:50:07.891 | INF | "user Login with ICE application"
+ 2024-06-24 14:50:10.932 | INF | "Select location"
+ 2024-06-24 14:50:11.128 | INF | "Navigate to patients"
+ 2024-06-24 14:50:11.426 | INF | "Click My Option"
+ 2024-06-24 14:50:13.321 | INF | "Click Add New Patient icon"
+ 2024-06-24 14:50:14.856 | INF | "Enter Forename"
+ 2024-06-24 14:50:15.002 | INF | "Enter Surname"
+ 2024-06-24 14:50:15.127 | INF | "Enter DOB"
+ 2024-06-24 14:50:15.257 | INF | "Select Gender"
+ 2024-06-24 14:50:15.435 | INF | "Enter Address line"
+ 2024-06-24 14:50:15.672 | INF | "Enter Postcode"
+ 2024-06-24 14:50:15.807 | INF | "Click Save icon"
+ 2024-06-24 14:50:17.047 | ERR | Test step failed | element click intercepted: Element <i class="fa fa-fw fa-plus-square-o icon"></i> is not clickable at point (1230, 90). Other element would receive the click: <div class="loading-panel loading" data-ng-class="base.isLoading ? 'loading' : ''">...</div>
+  (Session info: MicrosoftEdge=126.0.2592.68)   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebElement.Click()
+   at BDD_AutomationTests.Pages.CreatePatient.New() in D:\aa\ICE 24.2\Pages\CreatePatient.cs:line 96
+   at BDD_AutomationTests.Steps.CreatenewpatientStepDefinitions.ThenNewPatientDemographyIsCreated() in D:\aa\ICE 24.2\Steps\CreatenewpatientStepDefinitions.cs:line 107
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-24 15:12:47.181 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 15:12:47.237 | INF | ==================================================================================
+ 2024-06-24 15:12:47.250 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 15:12:47.312 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 15:13:01.880 | INF | "user Login with ICE application"
+ 2024-06-24 15:13:04.071 | INF | "Select location"
+ 2024-06-24 15:13:04.202 | INF | "Navigate to patients"
+ 2024-06-24 15:13:04.404 | INF | "Click My Option"
+ 2024-06-24 15:13:05.690 | INF | "Click Add New Patient icon"
+ 2024-06-24 15:13:07.428 | INF | "Enter Forename"
+ 2024-06-24 15:13:07.587 | INF | "Enter Surname"
+ 2024-06-24 15:13:07.749 | INF | "Enter DOB"
+ 2024-06-24 15:13:07.904 | INF | "Select Gender"
+ 2024-06-24 15:13:08.107 | INF | "Enter Address line"
+ 2024-06-24 15:13:08.310 | INF | "Enter Postcode"
+ 2024-06-24 15:13:08.432 | INF | "Click Save icon"
+ 2024-06-24 15:13:08.674 | INF | "New patient demography is Created"
+ 2024-06-24 15:16:06.545 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 15:16:06.570 | INF | ==================================================================================
+ 2024-06-24 15:16:06.575 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 15:16:06.595 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 15:16:19.577 | INF | "user Login with ICE application"
+ 2024-06-24 15:16:19.652 | ERR | Test step failed | Object reference not set to an instance of an object.   at BDD_AutomationTests.Steps.CreatenewpatientStepDefinitions.WhenSelectLocation() in D:\aa\ICE 24.2\Steps\CreatenewpatientStepDefinitions.cs:line 35
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+ 2024-06-24 15:17:04.894 | INF |                             BEGINNING OF TEST EXECUTION                           
+ 2024-06-24 15:17:04.917 | INF | ==================================================================================
+ 2024-06-24 15:17:04.922 | INF | Selecting feature file "Create new patient" to run
+ 2024-06-24 15:17:04.939 | INF | Selecting scenario "Create new patient with all mandatory parameters" to run
+ 2024-06-24 15:17:17.964 | INF | "user Login with ICE application"
+ 2024-06-24 15:17:19.361 | INF | "Select location"
+ 2024-06-24 15:17:20.794 | INF | "Navigate to patients"
+ 2024-06-24 15:17:20.900 | INF | "Click My Option"
+ 2024-06-24 15:17:22.447 | INF | "Click Add New Patient icon"
+ 2024-06-24 15:17:24.078 | INF | "Enter Forename"
+ 2024-06-24 15:17:24.267 | INF | "Enter Surname"
+ 2024-06-24 15:17:24.427 | INF | "Enter DOB"
+ 2024-06-24 15:17:24.579 | INF | "Select Gender"
+ 2024-06-24 15:17:24.739 | INF | "Enter Address line"
+ 2024-06-24 15:17:24.925 | INF | "Enter Postcode"
+ 2024-06-24 15:17:25.047 | INF | "Click Save icon"
+ 2024-06-24 15:17:25.284 | INF | "New patient demography is Created"
+ 

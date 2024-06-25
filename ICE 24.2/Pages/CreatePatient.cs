@@ -17,7 +17,6 @@ namespace BDD_AutomationTests.Pages
         {
             this.driver = driver;
         }
-
         By _loca = By.XPath("//select[@ng-if='logon.currentUser.shouldGroupUserLocationsByOrg']");
         By _patient = By.XPath("//body/div[@class='application data-ng-cloak']/header[@class='navigation ng-scope']/nav[@class='ng-scope']/ul[@class='primary hide']/ice-menu-item[3]/li[1]");
         By _my = By.XPath("//li[@class='parent ng-scope haschild open']//li[1]");

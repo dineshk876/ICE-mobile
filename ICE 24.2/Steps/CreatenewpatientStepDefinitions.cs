@@ -2,6 +2,7 @@ using BDD_AutomationTests.Behavior;
 using BDD_AutomationTests.Pages;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
+using static BDD_AutomationTests.Behavior.ExecuteLoginBehavior;
 
 
 namespace BDD_AutomationTests.Steps
@@ -11,32 +12,25 @@ namespace BDD_AutomationTests.Steps
     {
         IWebDriver driver;
         LoginPage _loginPage;
-        HomePage _homePage;
         CreatePatient createPatient;
 
-        public CreatenewpatientStepDefinitions(IWebDriver driver, HomePage homepage, CreatePatient createPatient)
+        public CreatenewpatientStepDefinitions(IWebDriver driver)
         {
             this.driver = driver;
             _loginPage = new LoginPage(driver);
-            _homePage = new HomePage(driver);
-          
-           this.createPatient = createPatient;
-
-
+           createPatient = new CreatePatient(driver);
         }
 
-        [Given(@"the user Login with credentials (.*) and (.*)")]
-        public void WhenTheUserLoginWithValidCredentials(string userName, string password)
+        [Given(@"user Login with ICE application")]
+        public void GivenUserLoginWithICEApplication()
         {
-            new ExecuteLoginBehavior(_loginPage, userName, password).Perform();
-
-
+            new singlelogin(_loginPage).login(); 
         }
         [When(@"Select location")]
         public void WhenSelectLocation()
         {
-            new ExecuteLoginBehavior(_homePage).Perform1();
-            //createPatient.loca();
+            //new ExecuteLoginBehavior(_homePage).Perform1();
+            createPatient.loca();
         }
 
 
@@ -105,10 +99,6 @@ namespace BDD_AutomationTests.Steps
         {
             createPatient.New();
         }
-
-
-
-
     }
 }
 

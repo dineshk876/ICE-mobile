@@ -2,7 +2,7 @@
 
 @Testers1
 Scenario: Create new patient with all mandatory parameters
-	Given the user Login with credentials <UserName> and <Password>
+	Given user Login with ICE application
 	When Select location
 	And Navigate to patients
 	And Click My Option

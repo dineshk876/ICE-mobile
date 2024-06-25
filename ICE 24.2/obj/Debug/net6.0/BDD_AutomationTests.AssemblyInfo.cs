@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDD_AutomationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2134bff015f85671fd512d95b2bef2ba318412e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec6b515e0d097a674e02a2f032d707a38c00e04e")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDD_AutomationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDD_AutomationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

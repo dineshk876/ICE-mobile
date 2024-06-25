@@ -17,6 +17,8 @@ namespace BDD_AutomationTests.Behavior
         {
             loginPage.ExecuteLogin(userName, password);
         }
+      
+        
         private HomePage homePage;
         public ExecuteLoginBehavior(HomePage page)
         {
@@ -36,6 +38,19 @@ namespace BDD_AutomationTests.Behavior
             public void Perform2()
             {
                 loginPage.InvalidAccountMessage();
+            }
+        }
+
+        public class singlelogin
+        {
+            private LoginPage loginPage;
+            public singlelogin(LoginPage page)
+            {
+                loginPage = page;
+            }
+            public void login()
+            {
+                loginPage.login();
             }
         }
     }
